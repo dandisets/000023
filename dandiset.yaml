@@ -10,7 +10,7 @@ identifier: '000023'
 name: 20200611_AIBS_human
 number_of_subjects: 34
 organism:
-- species: Homo Sapiens
+- species: Homo sapiens
 sex:
 - F
 - M
