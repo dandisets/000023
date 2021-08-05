@@ -27,7 +27,8 @@ citation: 20200611_AIBS_human (2021). (Version draft) [Data set]. DANDI archive.
 description: Allen Institute June 2020 Human PatchSeq icephys data
 id: DANDI:000023/draft
 identifier: DANDI:000023
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000023/versions/draft/assets/
 name: 20200611_AIBS_human
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
