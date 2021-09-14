@@ -29,11 +29,10 @@ assetsSummary:
 citation: Allen Institute for Brian Science (2021) Patch-seq recordings from human
   cortex (June 2020) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000023/draft
 contributor:
-- identifier: https://ror.org/00dcv1019
-  includeInCitation: true
-  name: Allen Institute for Brian Science
-  url: https://alleninstitute.org
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brian Science
+    schemaKey: Affiliation
   email: briank@alleninstitute.org
   identifier: 0000-0003-3136-8097
   includeInCitation: false
@@ -41,7 +40,10 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brian Science
+    schemaKey: Affiliation
   email: tom.chartrand@alleninstitute.org
   identifier: 0000-0002-7093-8681
   includeInCitation: false
@@ -49,6 +51,13 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  roleName: []
+  schemaKey: Organization
+  url: https://alleninstitute.org
 - awardNumber: U01MH114812
   contactPoint: []
   identifier: https://ror.org/04xeg9z08
